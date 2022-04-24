@@ -58,7 +58,7 @@ You need to have installed the follwoing:
 6.- Check the report. You will find the report in the follwoing path:
 
 ```
-  appiumAutomationFramework\report
+  mobile-automation-framework\report
 ```
 
 &nbsp;
