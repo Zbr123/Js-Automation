@@ -1,0 +1,86 @@
+[
+  {
+    "description": "As a father wanting to register his soon\nI want to complete the register process\nSo that he can start learning english",
+    "elements": [
+      {
+        "description": "",
+        "id": "register-flow;an-existing-email-can-not-be-registered",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "An existing email can not be registered",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I started the register process",
+            "match": {
+              "location": "features\\support\\register-steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 51484829599
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Level",
+                      "Year",
+                      "Month",
+                      "Name",
+                      "Email"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "1",
+                      "2017",
+                      "FEB",
+                      "Marti",
+                      "david.marcas@gmail.com"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I complete the register with an existing email",
+            "match": {
+              "location": "features\\support\\register-steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 25196693099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I should be informed that the email is in use",
+            "match": {
+              "location": "features\\support\\register-steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1087964900
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "register-flow",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Register flow",
+    "tags": [],
+    "uri": "features\\register-flow.feature"
+  }
+]

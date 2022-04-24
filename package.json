@@ -1,0 +1,29 @@
+{
+    "name": "mobile-automation-framework",
+    "version": "1.0.0",
+    "description": "Mobile automation framework based on Node, Appium and Cucumber",
+    "main": "index.js",
+    "dependencies": {
+        "@cucumber/cucumber": "^8.1.2",
+        "appium-doctor": "^1.16.0",
+        "assert": "2.0.0",
+        "chai": "4.2.0",
+        "colors": "^1.4.0",
+        "cucumber-html-reporter": "^5.5.0",
+        "dotenv": "^8.2.0",
+        "wd": "^1.14.0"
+    },
+    "devDependencies": {
+        "eslint": "^8.14.0",
+        "eslint-config-airbnb-base": "^15.0.0",
+        "eslint-plugin-import": "^2.26.0",
+        "eslint-plugin-prefer-arrow": "^1.2.3",
+        "husky": "^6.0.0"
+    },
+    "scripts": {
+        "test": "cucumber-js --format progress-bar --format json:report/cucumber-report.json --format html:report/cucumber-report.html",
+        "lint": "./node_modules/.bin/eslint ."
+    },
+    "author": "dmarcas",
+    "license": "ISC"
+}
