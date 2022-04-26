@@ -16,7 +16,7 @@ class RegisterFlowPO extends AndroidOperations {
     }
 
     /* CUSTOM METHODS */
-    startRegisterProcess = () => super.clickBy(this.startedButton, 120000);
+    startRegisterProcess = () => super.clickBy(this.startedButton, 220000);
 
     async completeRegisterProcess(dataTable) {
         const input = dataTable.hashes();
