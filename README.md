@@ -52,7 +52,7 @@ You need to have installed the follwoing:
 ```
  npm install
 
- npm run test
+` npm run test`
 ```
 
 6.- Check the report. You will find the report in the follwoing path:

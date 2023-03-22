@@ -1,6 +1,6 @@
 [
   {
-    "description": "As a father wanting to register his soon\nI want to complete the register process\nSo that he can start learning english",
+    "description": "    As a father wanting to register his soon\n    I want to complete the register process\n    So that he can start learning english",
     "elements": [
       {
         "description": "",
@@ -10,6 +10,15 @@
         "name": "An existing email can not be registered",
         "steps": [
           {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 49816000,
+              "error_message": "Error: Error: [init({\"automationName\":\"UiAutomator2\",\"platformName\":\"Android\",\"platformVersion\":\"12\",\"deviceName\":\"Android12\",\"app\":\"D:\\\\mobile-automation-framework/app/lingokids.apk\",\"browserName\":\"\",\"clearSystemFiles\":true,\"udid\":\"emulator-5554\",\"appPackage\":\"es.monkimun.lingokids\",\"appActivity\":\"es.monkimun.lingokids.MainActivity\",\"appWaitDuration\":80000,\"fullReset\":true,\"language\":\"en\",\"locale\":\"EN\",\"uiautomator2ServerLaunchTimeout\":60000,\"uiautomator2ServerInstallTimeout\":60000,\"androidInstallTimeout\":600000,\"remoteAppsCacheLimit\":0,\"newCommandTimeout\":450})] connect ECONNREFUSED ::1:4723\n    at D:\\mobile-automation-framework\\features\\support\\hooks.js:11:15\n    at _rejected (D:\\mobile-automation-framework\\node_modules\\q\\q.js:864:24)\n    at D:\\mobile-automation-framework\\node_modules\\q\\q.js:890:30\n    at Promise.when (D:\\mobile-automation-framework\\node_modules\\q\\q.js:1142:31)\n    at Promise.promise.promiseDispatch (D:\\mobile-automation-framework\\node_modules\\q\\q.js:808:41)\n    at D:\\mobile-automation-framework\\node_modules\\q\\q.js:624:44\n    at runSingle (D:\\mobile-automation-framework\\node_modules\\q\\q.js:137:13)\n    at flush (D:\\mobile-automation-framework\\node_modules\\q\\q.js:125:13)\n    at processTicksAndRejections (node:internal/process/task_queues:78:11)"
+            }
+          },
+          {
             "arguments": [],
             "keyword": "Given ",
             "line": 8,
@@ -18,8 +27,8 @@
               "location": "features\\support\\register-steps.js:5"
             },
             "result": {
-              "status": "passed",
-              "duration": 51484829599
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -41,7 +50,7 @@
                       "2017",
                       "FEB",
                       "Marti",
-                      "david.marcas@gmail.com"
+                      "test@gmail.com"
                     ]
                   }
                 ]
@@ -54,8 +63,8 @@
               "location": "features\\support\\register-steps.js:9"
             },
             "result": {
-              "status": "passed",
-              "duration": 25196693099
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -67,8 +76,16 @@
               "location": "features\\support\\register-steps.js:13"
             },
             "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
               "status": "passed",
-              "duration": 1087964900
+              "duration": 17546000
             }
           }
         ],

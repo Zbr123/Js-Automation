@@ -8,7 +8,7 @@ class RegisterFlowPO extends AndroidOperations {
         this.begginnerLevelButton = 'levelButton_beginner';
         this.childFirstName = 'nameTextInput';
         this.nameSubmitButton = 'nameSubmitButton';
-        this.emailTextInput = 'emailTextInput';
+        this.emailTextInput = '//android.widget.EditText[@content-desc="SignInScreen:EmailInput:email"]';
         this.gdprCheckBox = 'gdprCheckbox';
         this.receiveComunicationCheckBox = '(//android.view.ViewGroup[@content-desc="gdprCheckbox"]/following-sibling::android.view.ViewGroup)[1]';
         this.signupButton = 'signupButton';
