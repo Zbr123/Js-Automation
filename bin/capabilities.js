@@ -6,7 +6,7 @@ exports.Android12 = {
     app: `${process.cwd()}/app/lingokids.apk`,
     browserName: '',
     clearSystemFiles: true,
-    udid: 'emulator-5554',
+   // udid: 'emulator-5554',
     appPackage: 'es.monkimun.lingokids',
     appActivity: 'es.monkimun.lingokids.MainActivity',
     appWaitDuration: 80000,

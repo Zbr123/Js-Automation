@@ -14,17 +14,17 @@
             "hidden": true,
             "result": {
               "status": "failed",
-              "duration": 49816000,
-              "error_message": "Error: Error: [init({\"automationName\":\"UiAutomator2\",\"platformName\":\"Android\",\"platformVersion\":\"12\",\"deviceName\":\"Android12\",\"app\":\"D:\\\\mobile-automation-framework/app/lingokids.apk\",\"browserName\":\"\",\"clearSystemFiles\":true,\"udid\":\"emulator-5554\",\"appPackage\":\"es.monkimun.lingokids\",\"appActivity\":\"es.monkimun.lingokids.MainActivity\",\"appWaitDuration\":80000,\"fullReset\":true,\"language\":\"en\",\"locale\":\"EN\",\"uiautomator2ServerLaunchTimeout\":60000,\"uiautomator2ServerInstallTimeout\":60000,\"androidInstallTimeout\":600000,\"remoteAppsCacheLimit\":0,\"newCommandTimeout\":450})] connect ECONNREFUSED ::1:4723\n    at D:\\mobile-automation-framework\\features\\support\\hooks.js:11:15\n    at _rejected (D:\\mobile-automation-framework\\node_modules\\q\\q.js:864:24)\n    at D:\\mobile-automation-framework\\node_modules\\q\\q.js:890:30\n    at Promise.when (D:\\mobile-automation-framework\\node_modules\\q\\q.js:1142:31)\n    at Promise.promise.promiseDispatch (D:\\mobile-automation-framework\\node_modules\\q\\q.js:808:41)\n    at D:\\mobile-automation-framework\\node_modules\\q\\q.js:624:44\n    at runSingle (D:\\mobile-automation-framework\\node_modules\\q\\q.js:137:13)\n    at flush (D:\\mobile-automation-framework\\node_modules\\q\\q.js:125:13)\n    at processTicksAndRejections (node:internal/process/task_queues:78:11)"
+              "duration": 15044943939,
+              "error_message": "Error: Error: [init({\"automationName\":\"UiAutomator2\",\"platformName\":\"Android\",\"platformVersion\":\"12\",\"deviceName\":\"Android12\",\"app\":\"/Users/syedzubairalam/Desktop/Nexus/Js-Automation/app/lingokids.apk\",\"browserName\":\"\",\"clearSystemFiles\":true,\"appPackage\":\"es.monkimun.lingokids\",\"appActivity\":\"es.monkimun.lingokids.MainActivity\",\"appWaitDuration\":80000,\"fullReset\":true,\"language\":\"en\",\"locale\":\"EN\",\"uiautomator2ServerLaunchTimeout\":60000,\"uiautomator2ServerInstallTimeout\":60000,\"androidInstallTimeout\":600000,\"remoteAppsCacheLimit\":0,\"newCommandTimeout\":450})] The environment you requested was unavailable.\nAn unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command '/Users/syedzubairalam/Library/Android/sdk/platform-tools/adb -P 5037 -s f429375d install -r /Users/syedzubairalam/Desktop/Nexus/Js-Automation/app/lingokids.apk' exited with code 1'; Command output: adb: failed to install /Users/syedzubairalam/Desktop/Nexus/Js-Automation/app/lingokids.apk: \n    at /Users/syedzubairalam/Desktop/Nexus/Js-Automation/features/support/hooks.js:11:15\n    at _rejected (/Users/syedzubairalam/Desktop/Nexus/Js-Automation/node_modules/q/q.js:864:24)\n    at /Users/syedzubairalam/Desktop/Nexus/Js-Automation/node_modules/q/q.js:890:30\n    at Promise.when (/Users/syedzubairalam/Desktop/Nexus/Js-Automation/node_modules/q/q.js:1142:31)\n    at Promise.promise.promiseDispatch (/Users/syedzubairalam/Desktop/Nexus/Js-Automation/node_modules/q/q.js:808:41)\n    at /Users/syedzubairalam/Desktop/Nexus/Js-Automation/node_modules/q/q.js:624:44\n    at runSingle (/Users/syedzubairalam/Desktop/Nexus/Js-Automation/node_modules/q/q.js:137:13)\n    at flush (/Users/syedzubairalam/Desktop/Nexus/Js-Automation/node_modules/q/q.js:125:13)\n    at processTicksAndRejections (node:internal/process/task_queues:78:11)"
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 8,
+            "line": 7,
             "name": "I started the register process",
             "match": {
-              "location": "features\\support\\register-steps.js:5"
+              "location": "features/support/register-steps.js:5"
             },
             "result": {
               "status": "skipped",
@@ -57,10 +57,10 @@
               }
             ],
             "keyword": "When ",
-            "line": 9,
+            "line": 8,
             "name": "I complete the register with an existing email",
             "match": {
-              "location": "features\\support\\register-steps.js:9"
+              "location": "features/support/register-steps.js:9"
             },
             "result": {
               "status": "skipped",
@@ -70,10 +70,10 @@
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 12,
+            "line": 11,
             "name": "I should be informed that the email is in use",
             "match": {
-              "location": "features\\support\\register-steps.js:13"
+              "location": "features/support/register-steps.js:13"
             },
             "result": {
               "status": "skipped",
@@ -85,7 +85,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 17546000
+              "duration": 19930840
             }
           }
         ],
@@ -98,6 +98,6 @@
     "keyword": "Feature",
     "name": "Register flow",
     "tags": [],
-    "uri": "features\\register-flow.feature"
+    "uri": "features/register-flow.feature"
   }
 ]

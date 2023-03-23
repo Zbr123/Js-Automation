@@ -4,7 +4,6 @@ Feature: Register flow
     So that he can start learning english
 
     Scenario: An existing email can not be registered
-
         Given I started the register process
         When I complete the register with an existing email
             | Level | Year | Month | Name  | Email          |
