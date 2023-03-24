@@ -5,14 +5,14 @@ const {
 const setup = require('../../bin/setup');
 const caps = require('../../bin/capabilities');
 
-Before({ timeout: 80000 }, async () => {
+Before({ timeout: 10 * 5000 }, async () => {
     global.driver = setup.newDriver;
     return driver.init(caps[process.env.DEVICE]).setImplicitWaitTimeout(10000).catch((err) => {
         throw new Error(err);
     });
 });
 
-After({ timeout: 50000 }, async () => driver.quit().catch((err) => {
+After({ timeout: 2 * 5000 }, async () => driver.quit().catch((err) => {
         console.log(err);
         console.log('* Session finished'.red);
     }));

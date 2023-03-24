@@ -1,83 +1,98 @@
 [
   {
-    "description": "    As a father wanting to register his soon\n    I want to complete the register process\n    So that he can start learning english",
+    "description": "",
     "elements": [
       {
         "description": "",
-        "id": "register-flow;an-existing-email-can-not-be-registered",
+        "id": "welcome-screen-onboarding;verify-user-should-be-able-to-view-all-welcome-screens-before-create-account-screen",
         "keyword": "Scenario",
-        "line": 6,
-        "name": "An existing email can not be registered",
+        "line": 3,
+        "name": "Verify User should be able to view all welcome screens before create account screen",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
-              "status": "failed",
-              "duration": 15044943939,
-              "error_message": "Error: Error: [init({\"automationName\":\"UiAutomator2\",\"platformName\":\"Android\",\"platformVersion\":\"12\",\"deviceName\":\"Android12\",\"app\":\"/Users/syedzubairalam/Desktop/Nexus/Js-Automation/app/lingokids.apk\",\"browserName\":\"\",\"clearSystemFiles\":true,\"appPackage\":\"es.monkimun.lingokids\",\"appActivity\":\"es.monkimun.lingokids.MainActivity\",\"appWaitDuration\":80000,\"fullReset\":true,\"language\":\"en\",\"locale\":\"EN\",\"uiautomator2ServerLaunchTimeout\":60000,\"uiautomator2ServerInstallTimeout\":60000,\"androidInstallTimeout\":600000,\"remoteAppsCacheLimit\":0,\"newCommandTimeout\":450})] The environment you requested was unavailable.\nAn unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command '/Users/syedzubairalam/Library/Android/sdk/platform-tools/adb -P 5037 -s f429375d install -r /Users/syedzubairalam/Desktop/Nexus/Js-Automation/app/lingokids.apk' exited with code 1'; Command output: adb: failed to install /Users/syedzubairalam/Desktop/Nexus/Js-Automation/app/lingokids.apk: \n    at /Users/syedzubairalam/Desktop/Nexus/Js-Automation/features/support/hooks.js:11:15\n    at _rejected (/Users/syedzubairalam/Desktop/Nexus/Js-Automation/node_modules/q/q.js:864:24)\n    at /Users/syedzubairalam/Desktop/Nexus/Js-Automation/node_modules/q/q.js:890:30\n    at Promise.when (/Users/syedzubairalam/Desktop/Nexus/Js-Automation/node_modules/q/q.js:1142:31)\n    at Promise.promise.promiseDispatch (/Users/syedzubairalam/Desktop/Nexus/Js-Automation/node_modules/q/q.js:808:41)\n    at /Users/syedzubairalam/Desktop/Nexus/Js-Automation/node_modules/q/q.js:624:44\n    at runSingle (/Users/syedzubairalam/Desktop/Nexus/Js-Automation/node_modules/q/q.js:137:13)\n    at flush (/Users/syedzubairalam/Desktop/Nexus/Js-Automation/node_modules/q/q.js:125:13)\n    at processTicksAndRejections (node:internal/process/task_queues:78:11)"
+              "status": "passed",
+              "duration": 15581444292
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 7,
-            "name": "I started the register process",
+            "line": 4,
+            "name": "I install and open the android app",
             "match": {
-              "location": "features/support/register-steps.js:5"
+              "location": "features/support/welcome-steps.js:5"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 265555
             }
           },
           {
-            "arguments": [
-              {
-                "rows": [
-                  {
-                    "cells": [
-                      "Level",
-                      "Year",
-                      "Month",
-                      "Name",
-                      "Email"
-                    ]
-                  },
-                  {
-                    "cells": [
-                      "1",
-                      "2017",
-                      "FEB",
-                      "Marti",
-                      "test@gmail.com"
-                    ]
-                  }
-                ]
-              }
-            ],
+            "arguments": [],
             "keyword": "When ",
-            "line": 8,
-            "name": "I complete the register with an existing email",
+            "line": 5,
+            "name": "I click on Get Started Button",
             "match": {
-              "location": "features/support/register-steps.js:9"
+              "location": "features/support/welcome-steps.js:8"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 2595651414
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I select the language",
+            "match": {
+              "location": "features/support/welcome-steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3634794487
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I press the next button on Earn Rewards screen",
+            "match": {
+              "location": "features/support/welcome-steps.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1384154957
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I press the next button on Get Special Discounts",
+            "match": {
+              "location": "features/support/welcome-steps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 959962352
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 11,
-            "name": "I should be informed that the email is in use",
+            "line": 9,
+            "name": "I should see Create Account Screen",
             "match": {
-              "location": "features/support/register-steps.js:13"
+              "location": "features/support/welcome-steps.js:25"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 123787512
             }
           },
           {
@@ -85,7 +100,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 19930840
+              "duration": 2314604580
             }
           }
         ],
@@ -93,11 +108,11 @@
         "type": "scenario"
       }
     ],
-    "id": "register-flow",
+    "id": "welcome-screen-onboarding",
     "line": 1,
     "keyword": "Feature",
-    "name": "Register flow",
+    "name": "Welcome Screen Onboarding",
     "tags": [],
-    "uri": "features/register-flow.feature"
+    "uri": "features/Welcome.feature"
   }
 ]
