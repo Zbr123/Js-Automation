@@ -5,5 +5,5 @@ exports.iOS = {
 
 exports.Android = {
     host: 'localhost',
-    port: 4723,
+    port: 4724,
 };

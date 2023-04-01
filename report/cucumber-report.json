@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 15581444292
+              "duration": 28812362450
             }
           },
           {
@@ -23,11 +23,11 @@
             "line": 4,
             "name": "I install and open the android app",
             "match": {
-              "location": "features/support/welcome-steps.js:5"
+              "location": "features/support/welcome-steps.js:4"
             },
             "result": {
               "status": "passed",
-              "duration": 265555
+              "duration": 377247
             }
           },
           {
@@ -36,11 +36,11 @@
             "line": 5,
             "name": "I click on Get Started Button",
             "match": {
-              "location": "features/support/welcome-steps.js:8"
+              "location": "features/support/welcome-steps.js:7"
             },
             "result": {
               "status": "passed",
-              "duration": 2595651414
+              "duration": 4001804788
             }
           },
           {
@@ -49,11 +49,11 @@
             "line": 6,
             "name": "I select the language",
             "match": {
-              "location": "features/support/welcome-steps.js:12"
+              "location": "features/support/welcome-steps.js:11"
             },
             "result": {
               "status": "passed",
-              "duration": 3634794487
+              "duration": 1674358591.0000002
             }
           },
           {
@@ -62,11 +62,11 @@
             "line": 7,
             "name": "I press the next button on Earn Rewards screen",
             "match": {
-              "location": "features/support/welcome-steps.js:17"
+              "location": "features/support/welcome-steps.js:16"
             },
             "result": {
               "status": "passed",
-              "duration": 1384154957
+              "duration": 2369699976
             }
           },
           {
@@ -75,11 +75,11 @@
             "line": 8,
             "name": "I press the next button on Get Special Discounts",
             "match": {
-              "location": "features/support/welcome-steps.js:21"
+              "location": "features/support/welcome-steps.js:20"
             },
             "result": {
               "status": "passed",
-              "duration": 959962352
+              "duration": 871547749
             }
           },
           {
@@ -88,11 +88,180 @@
             "line": 9,
             "name": "I should see Create Account Screen",
             "match": {
-              "location": "features/support/welcome-steps.js:25"
+              "location": "features/support/createAccount-steps.js:5"
             },
             "result": {
               "status": "passed",
-              "duration": 123787512
+              "duration": 102933432
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I click on phone number field",
+            "match": {
+              "location": "features/support/createAccount-steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4431565209
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I click on Sign Up Button",
+            "match": {
+              "location": "features/support/createAccount-steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 872354325
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I click on otp field",
+            "match": {
+              "location": "features/support/createAccount-steps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2069195227.0000002
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I click on Verify",
+            "match": {
+              "location": "features/support/createAccount-steps.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1260403459
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "I click on Enter Password Field",
+            "match": {
+              "location": "features/support/createAccount-steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4711172182
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I click on Repeat Password Field",
+            "match": {
+              "location": "features/support/createAccount-steps.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4761300175
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I click on Next Button",
+            "match": {
+              "location": "features/support/createAccount-steps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1092537906
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "I click on Name Field",
+            "match": {
+              "location": "features/support/createAccount-steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4730633662
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "I click on Surname Field",
+            "match": {
+              "location": "features/support/createAccount-steps.js:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4715561219
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "I click on Birth Date Field",
+            "match": {
+              "location": "features/support/createAccount-steps.js:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4529698971
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "I click on Email Field",
+            "match": {
+              "location": "features/support/createAccount-steps.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5178151563
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "I click on Next Button",
+            "match": {
+              "location": "features/support/createAccount-steps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1453817570
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "I click on Go to Profile Button",
+            "match": {
+              "location": "features/support/createAccount-steps.js:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 924174743
             }
           },
           {
@@ -100,7 +269,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 2314604580
+              "duration": 1483805819
             }
           }
         ],

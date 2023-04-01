@@ -1,5 +1,4 @@
-const { Given, When, Then } = require('@cucumber/cucumber');
-const assert = require('assert');
+const { Given, When } = require('@cucumber/cucumber');
 const WelcomeScreen = require('../../page-objects/WelcomeScreen');
 
 Given('I install and open the android app', { timeout: 1000 * 5 }, async () => {
@@ -20,8 +19,4 @@ When('I press the next button on Earn Rewards screen', { timeout: 1000 * 5 }, as
 
 When('I press the next button on Get Special Discounts', { timeout: 1000 * 5 }, async () => {
   await WelcomeScreen.clickOnNextButton();
- });
-
-Then('I should see Create Account Screen', { timeout: 1000 * 5 }, async () => {
-    assert.ok(await WelcomeScreen.checkCreateAccountTextDisplayed(), 'Create Account');
  });
