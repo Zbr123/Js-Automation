@@ -1,0 +1,38 @@
+
+# Create a new run
+curl --request POST \
+     --url https://api.qase.io/v1/run/SHA \
+     --header 'Token: 00614d87aab83cdea86312855bd3919a38c90193ccce350f2f653ed125468271' \
+     --header 'accept: application/json' \
+     --header 'content-type: application/json' \
+     --data '{"title":"automationRun-script"}'
+
+#Create Test run result
+# curl --request POST \
+#      --url https://api.qase.io/v1/result/SHA/28 \
+#      --header 'Token: 00614d87aab83cdea86312855bd3919a38c90193ccce350f2f653ed125468271' \
+#      --header 'accept: application/json' \
+#      --header 'content-type: application/json' \
+#      --data '{ "status": "passed", "case_id": 1 }'
+
+# Create bulk test run rsult
+# curl --request POST \
+#      --url https://api.qase.io/v1/result/SHA/24/bulk \
+#      --header 'Token: 00614d87aab83cdea86312855bd3919a38c90193ccce350f2f653ed125468271' \
+#      --header 'accept: application/json' \
+#      --header 'content-type: application/json' \
+#      --data '
+# {
+#   "results": [
+#     {
+#       "case_id": 1,
+#       "status": "passed"
+#     }
+#   ]
+# }
+# '
+# Complete a specific run
+# curl --request POST \
+#      --url https://api.qase.io/v1/run/SHA/28/complete \
+#      --header 'Token: 00614d87aab83cdea86312855bd3919a38c90193ccce350f2f653ed125468271' \
+#      --header 'accept: application/json'

@@ -16,7 +16,7 @@
         "ecmaVersion": "latest"
     },
     "rules": {
-        "indent": 0,
+        "indent": 1,
         "func-names": 0,
         "max-len": ["error", 150],
         "eol-last": 0,
